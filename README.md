@@ -1,6 +1,4 @@
-# Sequence
-
-Sequence - A Non RTOS State Machine
+# Sequence - A Non RTOS State Machine
 
 
 ## Getting Started
