@@ -44,7 +44,6 @@ template<uint8_t N> struct Sequence{
         bool timeout(uint8_t timer_index = 0){
             if(timer_index >= total_timer_num) return false;
             if(timer_type[timer_index] == MILLIS){
-                // Serial.printf("%d %d %d\n",millis(), time_data[timer_index], time_set[timer_index]);
                 if ((millis() - time_data[timer_index]) >= time_set[timer_index]) return true;
             }
             else{
