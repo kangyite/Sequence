@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-###To declare a LinkedList object
+### To declare a LinkedList object
 ```c++
 Sequence<1> stateMachine //to create a Sequence class with 1 timer.
 
